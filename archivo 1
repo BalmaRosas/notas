@@ -1,0 +1,37 @@
+# Git Helpful Tips
+
+Pasos para empujar codigo a un repo en Github
+
+### 1. Verificar que cambios tenemos en linea para subir
+
+> git status
+> **este comando revisa y printea en consola los archivos a subir a github**
+
+### 2. Subid o hostear cambios
+
+> git add.
+> **Este comando prepara los archivos para ser subidos a github (pendiente, el "." sube todos los archivos a guthub)**
+
+>**verificar con el codigo de color si se ha commited/puesto en el stream los cambios. Verde mens good red means bad**
+
+### 3. VOLVER a Verificar que cambios tenemos en linea para subir
+
+> git status
+> **este comando revisa y printea en consola los archivos a subir a github**
+
+#### 4. Agregar comentarios a mis cambios de github
+
+> git commit -m "Enter description here"
+> **Este comando sirve para dejar un mensaje como descripción en los nodos cambios**
+
+### 5. Empujar cambios a github
+
+> git push origin "Name of branch"
+> **Este comando sirve para empujar los cambios ya directos a github**
+
+<!-- this is a comment -->
+<!-- this is a comment too -->
+### Como Verificar en que branch estas ???? 
+
+> git branch 
+>**Este commando verifica el nombre de la rama donde te encuentras**
